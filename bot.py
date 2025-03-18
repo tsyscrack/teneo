@@ -470,7 +470,7 @@ class Teneo:
             with open('tokens.txt', 'r') as file:
                 tokens = [line.strip() for line in file if line.strip()]
             
-            use_proxy_choice = self.print_question()
+            use_proxy_choice = 2
 
             use_proxy = False
             if use_proxy_choice in [1, 2]:
